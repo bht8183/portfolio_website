@@ -39,7 +39,7 @@ export default function LandingPage() {
             style={{ width: "150px", height: "190px" }}
           />
           <p className="text-white text-sm leading-relaxed">
-            I’m a Computer Science student at RIT with a strong passion for software development, 
+            I graduated with a Bachelor's degree in Computer Science at RIT with a strong passion for software development, 
             AI, and cloud solutions. I’ve worked on projects ranging from building AI assistants and 
             data-driven tools to developing APIs and embedded systems. Skilled in Java, Python, 
             C#, React, and SQL, I enjoy tackling problems across full-stack, cloud, and machine 
@@ -132,25 +132,36 @@ export default function LandingPage() {
       <div className="rounded-lg p-8 hover:bg-gray-800 transition">
         <h3 className="text-xl font-semibold">IT Electric Vehicle Team (Telemetry Team)</h3>
         <ul className="list-disc list-outside text-gray-300 mt-4 space-y-2 text-base leading-relaxed pl-6">
-          <li>Developed REST API endpoints for managing sensor configurations and telemetry data.</li>
-          <li>Built a token authentication system for the telemetry team website.</li>
-          <li>Migrated from relational to non-relational database (MongoDB), improving flexibility for future development.</li>
+          <li>Designed and implemented RESTful API endpoints to enable efficient management and retrieval of sensor
+          configurations and real-time telemetry data, ensuring scalable and maintainable backend services.</li>
+          <li>Developed and integrated a secure token-based authentication system using industry-standard protocols to safeguard
+          access to the telemetry team’s web platform.</li>
+          <li>Executed a database migration from a traditional relational schema to a flexible, document-oriented NoSQL model
+          leveraging MongoDB, significantly enhancing data scalability and schema adaptability for ongoing and future
+          telemetry applications.</li>
         </ul>
       </div>
       {/* Project 2 */}
       <div className="rounded-lg p-8 hover:bg-gray-800 transition">
         <h3 className="text-xl font-semibold">RIT Launch Initiative Avionics</h3>
-        <ul className="list-disc list-inside text-gray-300 mt-2 space-y-1 text-sm leading-relaxed">
-          <li>Improved system boot-up efficiency by developing a multi-threaded initialization task for the sensor module.</li>
-          <li>Developed drivers for current and temperature sensors for the flight computer's backplane.</li>
+        <ul className="list-disc list-outside text-gray-300 mt-4 space-y-2 text-base leading-relaxed pl-6">
+          <li>Optimized system boot-up performance by designing and implementing a multi-threaded initialization routine for the
+            sensor module, reducing startup latency and improving overall system responsiveness.
+          </li>
+          <li>Engineered low-level device drivers for current and temperature sensors interfaced with the flight computer
+            backplane, ensuring accurate real-time data acquisition and robust hardware integration.
+          </li>
         </ul>
       </div>
 
       {/* Project 3 */}
       <div className="rounded-lg p-8 hover:bg-gray-800 transition">
         <h3 className="text-xl font-semibold">MNIST Digit Recognizer</h3>
-        <ul className="list-disc list-inside text-gray-300 mt-2 space-y-1 text-sm leading-relaxed">
-          <li>Developed machine learning models using Nearest Neighbor and Support Vector Machine (SVM).</li>
+        <ul className="list-disc list-outside text-gray-300 mt-4 space-y-2 text-base leading-relaxed pl-6">
+          <li>Developed and evaluated machine learning classification models using K-Nearest Neighbor and Support Vector 
+            Machine (SVM) algorithms, achieving a classification accuracy of 97.35% with the SVM model through
+            training and hyperparameter tuning
+          </li>
           <li>Achieved 97.35% accuracy with SVM.</li>
         </ul>
       </div>
@@ -158,9 +169,13 @@ export default function LandingPage() {
       {/* Project 4 */}
       <div className="rounded-lg p-8 hover:bg-gray-800 transition">
         <h3 className="text-xl font-semibold">Database Application</h3>
-        <ul className="list-disc list-inside text-gray-300 mt-2 space-y-1 text-sm leading-relaxed">
-          <li>Collaborated on the development of a multi-user application for managing books, authors, and ratings.</li>
-          <li>Utilized an Enhanced Entity-Relationship (EER) diagram and PostgreSQL for database management.</li>
+        <ul className="list-disc list-outside text-gray-300 mt-4 space-y-2 text-base leading-relaxed pl-6">
+          <li>Collaborated in the design and implementation of a multi-user database application for managing bibliographic data
+            including books, authors, and ratings, facilitating concurrent access and data integrity.
+          </li>
+          <li>Employed Enhanced Entity-Relationship (EER) modeling to structure complex relational data, and implemented the 
+            backend using PostgreSQL, ensuring scalable and efficient data management.
+          </li>
         </ul>
       </div>
 
@@ -184,10 +199,11 @@ export default function LandingPage() {
         <div className="bg-gray-900/70 p-10 rounded-lg max-w-3xl w-full space-y-8 text-white">
           <h2 className="text-4xl font-bold text-center">Certifications</h2>
           <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <li>MIT - Cloud & DevOps: Continuous Transformation</li>
             <li>Microsoft Certified: Azure Fundamentals</li>
-            <li>Fundamentals of Generative AI</li>
-            <li>Embedded Systems using C (EDUCBA)</li>
-            <li>Cloud & DevOps: Continuous Transformation (MIT)</li>
+            <li>CIBERTEC - Visual Studio .NET CORE Fundamentals</li>
+            <li>EDUCBA - Embedded Systems using C</li>
+            <li>UPC - intermediate UI/UX design</li>
           </ul>
         </div>
       </section>
